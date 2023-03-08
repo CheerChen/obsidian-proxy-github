@@ -4,18 +4,7 @@
 
 因为某些原因，在国内经常无法下载 Obsidian 的社区插件。这个项目的主要目的就是修复这种情况，让国内的用户也可以无障碍的下载社区插件。
 
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
-<br />
-
+去掉了烦人的 “正在通过” 提示。
 
 
 ## 目录

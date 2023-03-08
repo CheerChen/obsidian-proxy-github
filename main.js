@@ -151,7 +151,7 @@ function apProxy() {
             if (!matchUrl(e)) {
                 return ap(e);
             }
-            new window.Notice("正在通过 ProxyGithub 来代理访问社区插件！")
+//             new window.Notice("正在通过 ProxyGithub 来代理访问社区插件！")
             return proxy(e)
         }
     }
@@ -168,7 +168,7 @@ function apProxy() {
         console.log(ap)
         window.Capacitor.registerPlugin("App").request = function (e){
             matchUrl(e);
-            new window.Notice("正在通过 ProxyGithub 来代理访问社区插件！")
+//             new window.Notice("正在通过 ProxyGithub 来代理访问社区插件！")
             ap(e);
             // if (matchUrl(e)) {
             //     return ap(e);
@@ -190,7 +190,7 @@ function apElectron() {
         window.require("electron").ipcRenderer.send = function (a,b,e,...rest){
 			debugger
             matchUrl(e);
-            new window.Notice("正在通过 ProxyGithub 来代理访问社区插件！")
+//             new window.Notice("正在通过 ProxyGithub 来代理访问社区插件！")
             ap(a,b,e, ...rest);
             // if (matchUrl(e)) {
             //     return ap(e);
